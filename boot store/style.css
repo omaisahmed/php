@@ -1,0 +1,571 @@
+body{
+    margin: 0;
+}
+
+.header{
+    xbackground-color: aquamarine;
+    width: 100%;
+    height: 120px;
+
+}
+
+.headerdata{
+    xbackground-color: brown;
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+}
+
+
+/* logo section */
+
+.logo{
+    xbackground-color:lightpink;
+    width: 200px;
+    height: 85px;
+    float: left;
+    margin-top: 35px;
+}
+
+
+.shoe{
+    background-image: linear-gradient(lightgreen, green);
+    width:90px;
+    height: 45px;
+    float: left;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+
+.store{
+    
+    width:90px;
+    height: 45px;
+    float: left;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+
+/* logo section end */
+
+
+
+/* nav section */
+.header-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+    width: 560px;
+    border-radius: 25px;
+    float: left;
+    margin-left: 210px;
+    margin-top: 79px;
+}
+
+.header-nav li {
+    float: left;
+    border-left: green solid 1px;
+  padding-left:20px ;
+  padding-right:20px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.header-nav li a {
+    display: block;
+    color: green;
+    text-align: center;
+   
+    text-decoration: none;
+}
+/* nav section end */
+
+
+
+.currency{
+    xbackground-color: violet;
+    float: right;
+    width: 230px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.drop-down{
+    xbackground-color: cadetblue;
+    width: 230px;
+    height: 20px;
+    float: left;
+    margin-top: 70px;
+}
+
+.drop-selection{
+    width: 155px;
+    font-size: 12px;
+}
+
+
+/* slider section */
+
+
+.slider-section{
+    xbackground-color: aquamarine;
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+}
+
+.slider-data{
+    background-image: url(./imgs/silder/1.png);
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+
+
+.nav{
+    background-image: linear-gradient(lightgreen, green);
+    width: 1200px;
+    height: 90px;}
+
+.nav ul {
+    width: 780px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    xbackground-color: #333;
+    margin-left: 384px;
+    margin-top: 12px;
+    padding: 15px 15px;
+    padding-left: 20px;
+}
+
+
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.nav li {
+    float: left;
+}
+.nav li a:hover:(.active) {
+    background-color:#00F;
+}
+
+.nav li a:hover{
+    border-radius: 10px 10px 10px 10px;
+    background-color: green;
+}
+
+.active{
+    background-color: green;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.serious{
+    xbackground-color: gray;
+    width: 500px;
+    height: 370px;
+float: left;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.serious-heading{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    line-height: 130px;
+}
+
+.serious-p{
+    text-align: center;
+    margin-top: -75px;
+}
+
+.serious-para{
+   color: white;
+   line-height: 20px;
+   padding-top: 20px;
+}
+
+.slider-shoes{
+    xbackground-color: gray;
+    width: 500px;
+    height: 370px;
+    float: left;
+}
+
+/* slider section end */
+
+
+.container{
+    xbackground-color: aquamarine;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.product{
+    background-color: orange;
+width: 295px;
+height: 120px;
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+border-radius: 25px;
+}
+
+.com{
+    font-size: 20px;
+  padding-left: 20px;
+  color: yellow;
+}
+
+.pro{
+    font-size: 30px;}
+
+.product-para{
+    text-align: center;
+    margin-top: -23px;
+    color: white;
+}
+
+
+
+.cart{
+    background-image: linear-gradient(rgb(64, 199, 98), green);
+width: 295px;
+height: 120px;
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+border-radius: 25px;
+}
+
+
+.cart-com{
+    float: right;
+    font-size: 20px;
+  padding-left: 20px;
+  color: yellow;
+  margin-right: 50px;
+}
+
+.cart-pro{
+    font-size: 30px;}
+
+.backet{
+    
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-top: 20px;
+margin-left: 20px;
+}
+
+.cart-para{
+    text-align: center;
+    margin-top: -25px;
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
+
+
+.newsletter{
+    background-image: linear-gradient(rgb(16, 192, 60), green);
+width: 295px;
+height: 120px;
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+border-radius: 25px;
+}
+
+.news-heading{
+color: white;
+padding-left: 10px;
+margin-top: 5px;
+margin-left: 10px;
+}
+
+.news-para{
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.news-text{
+    border:none;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.news-button{
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(rgb(24, 206, 121), green); 
+}
+
+.sale{
+    background-color:lightgreen;
+width: 295px;
+height: 120px;
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+border-radius: 25px;
+
+}
+
+.end-sale{
+    background-color: rgba(17, 73, 6, 0.986);
+    widows: 295px;
+    height: 30px;
+    border-radius: 20px 20px 2px 2px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.end-sale-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 185px;
+  
+}
+
+
+.sale-com{
+    font-size: 35px;
+  padding-left: 30px;
+  color: yellow;
+  margin-top: 5px;
+}
+
+.sale-pro{
+    font-size: 25px;}
+
+
+
+
+.side-bar{
+    xbackground-color: coral;
+    width: 290px;
+    height: 480px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.poll{
+    background-color: whitesmoke;
+    width: 280px;
+    height: 250px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px lightgray solid
+}
+
+.poll-heading{
+    margin-left: 50px;
+    color: green;
+}
+
+.poll-para{
+    text-align: center;
+}
+
+ul.a {
+    color: green;
+list-style: none;}
+
+
+  .tags{
+    background-color: whitesmoke;
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px lightgray solid
+}
+
+.tags-heading{
+    margin-left: 50px;
+    color: green;
+}
+
+.tags-advan{
+    color: lightgreen;
+}
+
+.tags-community{
+    color: green;
+
+}
+
+.tags-compaines{
+    color: lightgreen;
+}
+
+.cat{
+    xbackground-color: brown;
+    width: 600px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.cat-product{
+    background-color: whitesmoke;
+    width: 580px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.cat-heading{
+    color: green;
+    margin-left: 10px;
+}
+
+.cat-1{
+    xbackground-color: aquamarine;
+    width: 250px;
+    /*height: 280px;*/
+    float: left;
+    margin-left: 20px;
+}
+
+.cat-img-1{
+    xbackground-color: #00F;
+    width: 200px;
+    /*height: 210px;*/
+    float: left;
+    margin: 15px;
+    color:brown;
+}
+
+.cat-1-b{
+    color: rgb(21, 82, 61);
+    margin-left: 20px;
+}
+
+.cat-button{
+    background: transparent;
+    background-image: linear-gradient(rgb(24, 206, 121), green); 
+    border: none;
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    margin-top: -8px;
+}
+
+
+
+.cat-2{
+    xbackground-color: rgb(21, 82, 61);
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+.cat-3{
+    xbackground-color: aquamarine;
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.cat-4{
+    xbackground-color: aquamarine;
+    width: 250px;
+    height: 280px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.right-side-bar{
+    xbackground-color: coral;
+    width: 290px;
+    height: 650px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px; 
+}
+
+.shop-price{
+    xbackground-color: blue;
+    width: 260px;
+    height: 240px;
+    float: left;
+    margin: 15px;
+}
+
+.shop-language{
+    xbackground-color: aliceblue;
+    width: 260px;
+    height: 25px;
+}
+
+.language-drop-selection{
+    width: 75px;
+}
+
+.free-shopping{
+    background-image: url(./imgs/catimgs/6.jpg);
+    width: 270px;
+    height: 310px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.free-online-order{
+    background-color: white;
+    width: 270px;
+    height: 90px;
+    opacity: 0.5;
+    margin-top: 130px;
+}
+
+.free-online{
+    margin-top: -5px;
+}
